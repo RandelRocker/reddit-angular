@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'DOS';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/Fixedsys500c.eot');
+	src: local('☺'), url('../fonts/Fixedsys500c.woff') format('woff'), url('../fonts/Fixedsys500c.ttf') format('truetype'), url('../fonts/Fixedsys500c.svg') format('svg');
+}
+
+body {
+	background-color: #000084;
+	font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+	color: #bbbbbb;
+	font-size: 18px;
+}
+
+b {
+	font-weight: bold;
+	color: #fff;
+	background-color: #000;
+}
+
+a {
+	color: #fefe54;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #aa5500;
+}
+
+a.empty {
+	background-color: transparent;
+}
+
+a.link_white {
+	color: #fff;
+}
+
+.links {
+	font-size: 12px;
+}

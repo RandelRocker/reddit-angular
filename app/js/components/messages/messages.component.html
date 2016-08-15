@@ -1,0 +1,5 @@
+<div *ngIf="messages">
+	<message *ngFor="let message of messages" [message]="message"></message>
+	<pagination [paginationData]="paginationData"></pagination>
+</div>
+

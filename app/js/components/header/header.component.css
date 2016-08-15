@@ -1,0 +1,12 @@
+:host {
+	background-color: #000;
+	padding-top: 10px;
+}
+
+.logo {
+	display: block;
+	width: 296px;
+	height: 128px;
+	margin: 0 auto;
+	background: url("app/img/logo.png") no-repeat;
+}

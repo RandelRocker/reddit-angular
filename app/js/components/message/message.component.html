@@ -1,0 +1,13 @@
+<fieldset class="reddit-item">
+	<legend class="rating">>>> Rating: {{message.data.score}} <<<</legend>
+	<a *ngIf="message.data.thumbnail" href="{{message.data.url}}" target="_blank" class="preview empty">
+		<img src="{{message.data.thumbnail}}" width="70" height="52" alt="">
+	</a>
+		<div class="content">
+			<a href="{{message.data.url}}" target="_blank" class="link_white">{{message.data.title}}</a>
+			<div class="links"> submitted {{message.data.created_utc}} by <b>{{message.author}}</b> to
+				<a href="/r/{{message.data.subreddit}}" class="link_pink no-refresh">/r/{{message.data.subreddit}}</a>
+			</div>
+			<a href="/comments/{{message.data.id}}" class="no-refresh">{{message.data.num_comments}} comments</a>
+		</div>
+</fieldset>

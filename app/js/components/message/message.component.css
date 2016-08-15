@@ -1,0 +1,21 @@
+.reddit-item {
+	padding: 0 15px 5px;
+	margin: 0 5px 10px;
+	border: 2px solid #bbbbbb;
+}
+
+.rating {
+	text-align: center;
+	padding: 0 20px;
+}
+
+.preview {
+	float: left;
+	vertical-align: text-bottom;
+	padding-top: 7px;
+	margin-right: 20px;
+}
+
+.content {
+	overflow: hidden;
+}
